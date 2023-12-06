@@ -1,0 +1,683 @@
+.heroSection {
+    background-position: center;
+    /* background-image: url(../Images/img1.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 10px;
+    height: 100vh;
+}
+
+.heroSection .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+}
+
+.heading {
+    color: #fff;
+    align-self: stretch;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.customHeading {
+    color: #fff;
+    font-family: Poppins;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.Heading {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 90%;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.mg {
+    font-family: Nutino-sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+
+
+}
+
+.btn {
+    font-family: Nutino-sans;
+    font-size: 17px;
+    font-weight: 800;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #FFF400;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.btn :hover {
+    background-color: #ffc107;
+}
+
+/* ourVision_wrapper */
+.ourVision_wrapper {
+    padding-block: 80px;
+}
+
+.ourVision_wrapper .headingContent {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: lowercase;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+
+.ourVision_wrapper .headingContent span {
+    color: #ffc107;
+}
+
+.ourVision_wrapper .our_visionContent {
+    margin: 0;
+    margin-top: 100px;
+    padding: -10px;
+    text-align: left;
+    color: #fff;
+    font-family: Nutino Sans;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.ourVision_wrapper .our_visionContent span {
+    color: #fff400;
+}
+
+.ourVision_wrapper .our_visionContent p {
+    font-family: Nutino Sans;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.our_visionContent h1 {
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 70px;
+    font-display: bold;
+}
+
+
+.ourVision_wrapper .img {
+    position: relative;
+    margin-left: 60px;
+}
+
+.ourVision_wrapper .img::after {
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 10px;
+    right: -10px;
+    bottom: -10px;
+    background: #FFF400;
+    z-index: -1;
+}
+
+.ourVision_wrapper .img img {
+    width: 100%;
+}
+
+/*Bottom heading after our vision*/
+.heading2 p {
+    padding-top: 60px;
+    color: #fff;
+    text-align: center;
+    font-family: Nutino Sans;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: lowercase;
+    letter-spacing: 1.56px;
+}
+
+.heading2 span {
+    color: #FFF400;
+    text-transform: uppercase;
+    letter-spacing: 1.95px;
+    font-size: 30px;
+    font-family: Nutino Sans;
+}
+
+/*welcome_wrapper*/
+.welcome_wrapper {
+    color: #fff;
+}
+
+.heading3 h3 {
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.heading3 span {
+    color: #FFF400;
+}
+
+.heading3 p {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.heading3 .bt {
+    display: flex;
+    padding: 10px 20px;
+    margin: auto;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFF400;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Nutino Sans;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 55px;
+
+}
+
+.heading3.bt :hover {
+    background-color: #ffc107;
+}
+
+.heading3 h6 {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1.08px;
+}
+
+/*whyChooseus_wrapper*/
+
+.whyChooseus_wrapper {
+    color: #fff;
+    padding-block: 80px;
+}
+
+.image_content {
+    position: relative;
+    width: 80%;
+}
+
+.image_content::after {
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: -10px;
+    right: 10px;
+    bottom: -10px;
+    background: #fff400;
+    z-index: -1;
+}
+
+.whyChooseus_wrapper h2 {
+    /* text-align: center; */
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.whyChooseus_wrapper h2 span {
+    color: #FFF400;
+}
+
+/**** Icons css starts form here*******/
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+/**Headings and paragraph starts from here**/
+.facilities_content {
+    font-family: Nutino Sans;
+}
+
+.facilities_content h6 {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.facilities_content p {
+    text-align: left;
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+/*---------------------------*/
+.heading4 {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1.08px;
+    padding-top: 40px;
+
+}
+
+.thrill_button {
+    font-family: Nutino-sans;
+    font-size: 18px;
+    font-weight: 800;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #FFF400;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    cursor: pointer;
+    line-height: 84.023%;
+
+}
+
+.head h5 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-top: 40px;
+
+}
+
+/*----Service section----------*/
+
+
+.serviceSection {
+    color: #fff;
+    font-family: Poppins;
+    background-position: center;
+    background-image: url(../Images/img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    margin-bottom: 70px;
+}
+
+.serviceSection p {
+    margin: 0;
+}
+
+.bgImage_content {
+    margin-bottom: 80px;
+}
+
+.bgImage_content h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 50px;
+    line-height: 90%;
+}
+
+.bgImage_content h1 span {
+    color: #FFF400;
+}
+
+.bgImage_content p {
+    text-align: center;
+    font-family: Nutino;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.demo {
+    position: relative;
+    margin-inline: 40px;
+}
+
+.demo img {
+    width: 100%;
+}
+
+.demo h4 {
+    color: #FFF400;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+
+    /* margin: 90px; */
+}
+
+.demo_h4 {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service_head {
+    color: #fff;
+}
+
+.service_head p {
+    margin: 0;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 111.5%;
+    letter-spacing: 1.08px;
+    text-transform: capitalize;
+}
+
+.service_content h3 {
+    padding-top: 40px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 54px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.service_content h3 span {
+    color: #FFF400;
+}
+
+.service_content p {
+    margin: 0;
+    text-align: center;
+    font-family: Nutino;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.custom-card {
+    border-radius: 16px;
+    background: #303030;
+    box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.40);
+    margin-left: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    /* height: 100%; */
+}
+
+.custom-image {
+    width: 50px;
+    height: 50px;
+}
+
+.custom-button {
+    border-radius: 4px;
+    border: none;
+    background: #FFF400;
+}
+
+.card-title {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.card-text {
+    color: #fff;
+    font-family: Nutino Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/***One-on-one section**/
+.oneOn_section {
+    color: #fff;
+    font-family: Poppins;
+    background-position: center;
+    background-image: url(../Images/img7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.oneOn_content {
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+
+}
+
+.oneOn_content h5 {
+    color: #B32ECB;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin: 0;
+    line-height: 100%;
+    padding-top: 40px;
+
+
+}
+
+.oneOn_content h4 {
+    text-align: center;
+    /* padding-left: 250px; */
+    margin-left: auto;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: fit-content;
+    margin-top: -10px;
+
+}
+
+.One_para p {
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128.023%;
+    /* 23.044px */
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+/*** One card **/
+.one-card {
+    padding: 3px 8px 31.58px 9px;
+    border-radius: 13.206px;
+    background: #FFF;
+    box-shadow: 4.402px 3.522px 8.804px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+
+}
+
+.one-card .card-title {
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 3.522px 38.738px #FFF;
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.one-image {
+    padding: 0;
+    height: 100%;
+}
+
+.one_content h5 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.one_content p {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    letter-spacing: 0.72px;
+}
+
+.one_content span {
+    color: #B32ECB;
+}
+
+.one_button {
+    display: flex;
+    padding: 10px 20px;
+    margin: auto;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #B32ECB;
+    box-shadow: 10.036px 6.691px 24.756px 0px rgba(0, 0, 0, 0.25);
+    font-family: Nutino Sans;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/***Fitness-heros slider***/
+.fitness_content {
+    color: #fff;
+}
+
+.fitness_content p {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.fitness_content h4 {
+    text-align: center;
+    font-family: Nutino Sans;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.fitness_content h4 span {
+    color: #fff400;
+}
+
+.slider_section{
+    padding-block: 60px;
+    color: #fff;
+}
+
+.card_body {
+    color: #FFF;
+    font-family: Poppins;
+    display: flex !important;
+}
+
+.card_image {
+    width: 250px;
+    height: 300px;
+    justify-content: left;
+    align-items: left;
+    /* border-radius: 19.231px; */
+    background: lightgray 0px -3.604px / 100% 125.185% no-repeat;
+}
+
+.card_body h6 {
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card_body h5 {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card_para{
+    
+    justify-content: space-between;
+    margin-left: 60px;
+    padding-block: 40px;
+
+}
+
+.card_para p {
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.slide_para p{
+    padding-top: 60px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 800; 
+}
+.sl_button{
+    display: flex;
+    padding: 10px 20px;
+    margin: auto;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+    background-color:#fff400;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Nutino Sans;
+    font-size: 18px;
+    font-weight: 800;
+}
+
