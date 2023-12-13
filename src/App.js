@@ -9,6 +9,13 @@ import Programs from './Pages/programs/programs.jsx';
 import Workshops from './Pages/workshops/workshops.jsx';
 import About from './Pages/about/About.jsx';
 import Contact from './Pages/contact/Contact.jsx';
+import GymPage from "./Pages/gym/GymPage.jsx";
+import Hiit from "./Pages/hiit/Hiit.jsx"
+import Zumba from "./Pages/zumba/Zumba.jsx"
+import Yoga from "./Pages/yoga/Yoga.jsx"
+import Swimming from "./Pages/swimming/Swimming.jsx"
+import Nutrition from "./Pages/nutrition/Nutrition.jsx"
+import Sauna from "./Pages/sauna/Sauna.jsx"
 
 const App = () => {
   return (
@@ -26,7 +33,21 @@ const App = () => {
           <Route path="contact" element={<Contact />} />
         </Routes>
       </Router>
+      
+
+      <Router>
       <Footer/>
+      <Routes>
+        <Route path="gym" element={<GymPage/>}/> 
+        <Route path="hiit" element={<Hiit/>}/>
+        <Route path="zumba" element={<Zumba/>}/> 
+        <Route path="yoga" element ={<Yoga/>}/>
+        <Route path="swimming" element ={<Swimming/>}/>
+        <Route path="nutrition" element ={<Nutrition/>}/>
+        <Route path="sauna" element ={<Sauna/>}/>
+
+      </Routes>
+      </Router>
       
 
     </>

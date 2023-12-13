@@ -7,7 +7,6 @@
     width: 172px;
     height: 55.513px;
     margin-bottom: 10px;
-
 }
 
 .footer_para p {
@@ -17,4 +16,63 @@
     font-weight: 700;
     letter-spacing: 1px;
     margin: 0;
+    text-align: justify;
+    height: 337px;
+    width: 232px;
+    padding-top: 20px;
+}
+
+/***********/
+.parent_div {
+    display: flex;
+    justify-content: space-between;
+    font-family: Nutino;
+}
+
+.parent_div p {
+    color: #232222;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.parent_div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.parent_div li a {
+    text-decoration: none;
+    color: #232222;
+    font-family: Nutino Sans;
+}
+
+.our_platform li img {
+    height: 20px;
+    width: 20px;
+}
+
+.last_content {
+    color: #fff;
+    background:#292828;
+    display: flex;
+    padding: 14px 46px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Nutino Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+.last_content li a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-family: Nutino;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.last_content ul {
+    list-style: none;
 }
