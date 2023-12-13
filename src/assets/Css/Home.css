@@ -379,14 +379,6 @@
     /* margin: 90px; */
 }
 
-.demo_h4 {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 
 .service_head {
     color: #fff;
@@ -531,16 +523,13 @@
 }
 
 /*** One card **/
-.one-card {
-    padding: 3px 8px 31.58px 9px;
-    border-radius: 13.206px;
-    background: #FFF;
-    box-shadow: 4.402px 3.522px 8.804px 0px rgba(0, 0, 0, 0.25);
-    padding: 10px;
+/* .one_card img {
+    height: 250px ;
+    width: 198px;
+    
+} */
 
-}
-
-.one-card .card-title {
+/* .one_card .card-title {
     color: #000;
     text-align: center;
     text-shadow: 0px 3.522px 38.738px #FFF;
@@ -549,9 +538,9 @@
     font-weight: 800;
     text-transform: capitalize;
     padding-top: 10px;
-}
+} */
 
-.one-image {
+.one_image {
     padding: 0;
     height: 100%;
 }
@@ -615,7 +604,7 @@
     color: #fff400;
 }
 
-.slider_section{
+.slider_section {
     padding-block: 60px;
     color: #fff;
 }
@@ -646,8 +635,9 @@
     font-size: 18px;
     font-weight: 400;
 }
-.card_para{
-    
+
+.card_para {
+
     justify-content: space-between;
     margin-left: 60px;
     padding-block: 40px;
@@ -660,24 +650,219 @@
     font-weight: 400;
 }
 
-.slide_para p{
+.slide_para p {
     padding-top: 60px;
     text-align: center;
     font-family: Poppins;
     font-size: 18px;
-    font-weight: 800; 
+    font-weight: 800;
 }
-.sl_button{
+
+.sl_button {
     display: flex;
     padding: 10px 20px;
     margin: auto;
     color: #000;
     border-radius: 5px;
     border: none;
-    background-color:#fff400;
+    background-color: #fff400;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: Nutino Sans;
     font-size: 18px;
     font-weight: 800;
 }
 
+/***Fitness slam content***/
+.slam {
+    color: #fff;
+    padding-block: 40px;
+    font-family: Poppins;
+}
+
+.slam_content p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.slam_content h4 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.slam_content h4 span {
+    color: #fff400;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 1.25;
+    color: #fff
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #fff400;
+}
+
+.slide_master {
+    padding-block: 60px;
+}
+
+.slide_images img {
+    display: flex;
+    flex-shrink: 0;
+    width: auto;
+    height: auto;
+    border-radius: 4px;
+    border: none;
+}
+
+.slide_images ::after {
+    background: rgba(0, 0, 0, 0.50);
+}
+
+.slam_para p {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/******Client Section******/
+.client_Section {
+    color: #FFF;
+    padding-block: 40px;
+}
+
+.client_Section h3 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.client_Section h3 span {
+    color: #fff400;
+}
+
+.client_card {
+    border-radius: 32px;
+    background: #303030;
+    color: #fff;
+    width: 70%;
+}
+
+.client_card .card-title {
+    color: #fff400;
+    text-align: center;
+}
+
+.client_image {
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 124px;
+}
+
+.client_para {
+    margin-top: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.client_button {
+    font-family: Nutino Sans;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 5px;
+    background: #FFF400;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.fitnessEnc {
+    text-align: center;
+    margin-top: 40px;
+    font-family: Poppins;
+    
+}
+
+.fitnessEnc p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fitnessEnc h4 {
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.fitnessEnc h4 span {
+    color: #fff400;
+}
+
+.fitnessEnc_slider {
+    color: #fff;
+}
+
+.fit_card {
+    width: 288px;
+    border-radius: 20px;
+    background: #303030;
+}
+
+.fit_button {
+    text-align: center;
+    font-family: Nutino Sans;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 4px;
+    background: #FFF400;
+}
+/** Follow us on instagram**/
+.follow_insta{
+    color: #fff;
+}
+.follow_content h4{
+    margin-top: 80px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+}
+.follow_content h4 span{
+    color: #fff400;
+}
+
+.insta_images img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 80px;
+    /* object-fit: cover;
+    border-radius: 5px; */
+}
+.insta_images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    

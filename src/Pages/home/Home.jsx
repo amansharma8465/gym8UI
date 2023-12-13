@@ -18,16 +18,30 @@ import cardImage9 from '../../assets/Images/gym.png'
 import cardImage10 from '../../assets/Images/strength.png'
 import cardImage11 from '../../assets/Images/hiit.png'
 import cardImage12 from '../../assets/Images/pilates.png'
+import cardImage13 from '../../assets/Images/client.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Image from '../../assets/Images/img2.png'
 import Image1 from '../../assets/Images/img3.png'
 import Image2 from '../../assets/Images/img5.png'
+import Image3 from '../../assets/Images/training.png'
 import Image4 from '../../assets/Images/img6.png'
 import Image5 from '../../assets/Images/img8.png'
+import Image6 from '../../assets/Images/slide1.png'
+import Image7 from '../../assets/Images/slide2.png'
+import Image8 from '../../assets/Images/slide3.png'
+import Image9 from '../../assets/Images/fitness.png'
+import Image10 from '../../assets/Images/grid imges/img1.png'
+import Image11 from '../../assets/Images/grid imges/img2.png'
+import Image12 from '../../assets/Images/grid imges/img3.png'
+import Image13 from '../../assets/Images/grid imges/img4.png'
+import Image14 from '../../assets/Images/grid imges/img5.png'
+import Image15 from '../../assets/Images/grid imges/img6.png'
+import Image16 from '../../assets/Images/grid imges/img7.png'
+import Image17 from '../../assets/Images/grid imges/img8.png'
+import Image18 from '../../assets/Images/grid imges/img9.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../assets/Css/Home.css';
 import '../../../src/index.css';
@@ -52,6 +66,19 @@ function Home() {
     slidesToShow: 2,
     speed: 500
   };
+  const slide = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1
+  };
+  const fit = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1
+  }
 
   return (
     <>
@@ -178,7 +205,15 @@ function Home() {
               <Col>
                 <div className='demo'>
                   <img src={Image2} alt="Something here" />
-                  <div className='demo_h4'><h4>Zumba</h4></div>
+
+                </div>
+
+
+              </Col>
+              <Col>
+                <div className='demo'>
+                  <img src={Image3} alt="Something here" />
+
                 </div>
 
 
@@ -186,15 +221,7 @@ function Home() {
               <Col>
                 <div className='demo'>
                   <img src={Image4} alt="Something here" />
-                  <div className='demo_h4'><h4>Gym</h4></div>
-                </div>
 
-
-              </Col>
-              <Col>
-                <div className='demo'>
-                  <img src={Image4} alt="Something here" />
-                  <div className='demo_h4'><h4>Swimming</h4></div>
                 </div>
               </Col>
             </Row>
@@ -301,52 +328,22 @@ function Home() {
               our expert trainers by your side. Here, we provide a whole ecosystem of holistic fitness, with every aspect taken care of.</p>
             <Row>
               <Col>
-                <Card className='one-card'>
-                  <Card.Body>
-                    <Card.Img className='one-image' variant="top" src={cardImage7} alt="Card Image 7" />
-                    <Card.Title>Yoga</Card.Title>
-                  </Card.Body>
-                </Card>
+                <div className='one_card'><img src={cardImage7} alt="cardImage7" /></div>
               </Col>
               <Col>
-                <Card className='one-card'>
-                  <Card.Body>
-                    <Card.Img className='one-image' variant="top" src={cardImage8} alt="Card Image 8" />
-                    <Card.Title>Zumba</Card.Title>
-                  </Card.Body>
-                </Card>
+                <div className='one_card'><img src={cardImage8} alt="cardImage8" /></div>
               </Col>
               <Col>
-                <Card className='one-card'>
-                  <Card.Body>
-                    <Card.Img className='one-image' variant="top" src={cardImage9} alt="Card Image 9" />
-                    <Card.Title>Gym</Card.Title>
-                  </Card.Body>
-                </Card>
+                <div className='one_card'><img src={cardImage9} alt="cardImage9" /></div>
               </Col>
               <Col>
-                <Card className='one-card'>
-                  <Card.Body>
-                    <Card.Img className='one-image' variant="top" src={cardImage10} alt="Card Image 10" />
-                    <Card.Title>Strength Training</Card.Title>
-                  </Card.Body>
-                </Card>
+                <div className='one_card'><img src={cardImage10} alt="cardImage10" /></div>
               </Col>
               <Col>
-                <Card className='one-card'>
-                  <Card.Body>
-                    <Card.Img className='one-image' variant="top" src={cardImage11} alt="Card Image 11" />
-                    <Card.Title>HIIT</Card.Title>
-                  </Card.Body>
-                </Card>
+                <div className='one_card'><img src={cardImage11} alt="cardImage11" /></div>
               </Col>
               <Col>
-                <Card className='one-card'>
-                  <Card.Body>
-                    <Card.Img className='one-image' variant="top" src={cardImage12} alt="Card Image 12" />
-                    <Card.Title>Pilates</Card.Title>
-                  </Card.Body>
-                </Card>
+                <div className='one_card'><img src={cardImage12} alt="cardImage12" /></div>
               </Col>
             </Row>
             <div className='one_content'>
@@ -363,12 +360,12 @@ function Home() {
           <div className='fitness_content'>
             <p>Just like a GPS for fitness, our trainers will help you navigate
               the twists and turns of your wellness journey."</p>
-            <h4>Meet Your <span>Fitness Heroses</span></h4>
+            <h4>Meet Your <span>Fitness Heroes</span></h4>
           </div>
           <div>
             <Slider {...settings}>
               <div className='card_body'>
-                <img className='card_image' src={Image5} alt="card-image" />
+                <img className='card_image' src={Image5} alt="cardimage" />
                 <div className='card_para'>
                   <h6>Vishal Pareek</h6>
                   <h5>Hiit Expert</h5>
@@ -376,7 +373,7 @@ function Home() {
                 </div>
               </div>
               <div className='card_body'>
-                <img className='card_image' src={Image5} alt="card-image" />
+                <img className='card_image' src={Image5} alt="cardimage" />
                 <div className='card_para'>
                   <h6>Vishal Pareek</h6>
                   <h5>Hiit Expert</h5>
@@ -384,15 +381,7 @@ function Home() {
                 </div>
               </div>
               <div className='card_body'>
-                <img className='card_image' src={Image5} alt="card-image" />
-               <div className='card_para'>
-                  <h6>Vishal Pareek</h6>
-                  <h5>Hiit Expert</h5>
-                  <p>Our team of 8 step fitness studio trainers is dedicated to helping you achieve your fitness goals in a safe, effective, and fun manner. Our trainers have a wealth of knowledge and experience in various areas of fitness, including strength training, cardio, flexibility, and functional movement.</p>
-                </div>
-              </div>
-              <div className='card_body'>
-                <img className='card_image' src={Image5} alt="card-image" />
+                <img className='card_image' src={Image5} alt="cardimage" />
                 <div className='card_para'>
                   <h6>Vishal Pareek</h6>
                   <h5>Hiit Expert</h5>
@@ -400,7 +389,7 @@ function Home() {
                 </div>
               </div>
               <div className='card_body'>
-                <img className='card_image' src={Image5} alt="card-image" />
+                <img className='card_image' src={Image5} alt="cardimage" />
                 <div className='card_para'>
                   <h6>Vishal Pareek</h6>
                   <h5>Hiit Expert</h5>
@@ -408,7 +397,15 @@ function Home() {
                 </div>
               </div>
               <div className='card_body'>
-                <img className='card_image' src={Image5} alt="card-image" />
+                <img className='card_image' src={Image5} alt="cardimage" />
+                <div className='card_para'>
+                  <h6>Vishal Pareek</h6>
+                  <h5>Hiit Expert</h5>
+                  <p>Our team of 8 step fitness studio trainers is dedicated to helping you achieve your fitness goals in a safe, effective, and fun manner. Our trainers have a wealth of knowledge and experience in various areas of fitness, including strength training, cardio, flexibility, and functional movement.</p>
+                </div>
+              </div>
+              <div className='card_body'>
+                <img className='card_image' src={Image5} alt="cardimage" />
                 <div className='card_para'>
                   <h6>Vishal Pareek</h6>
                   <h5>Hiit Expert</h5>
@@ -420,6 +417,178 @@ function Home() {
           <div className='slide_para'>
             <p>Your path to a fitter, healthier you is just a click away? Get started with our expert trainers now!"</p>
             <button className='sl_button'>Connect Now!</button>
+          </div>
+        </Container>
+      </section>
+
+      <section className='fitnessSlam_section'>
+        <Container>
+          <div className='slam'>
+            <div className='slam_content'>
+              <p>"You've read the journey, now see it unfold! a gallery filled with smiles, sweat, and success stories.
+                It's the fitness slam book you've been waiting for!"</p>
+              <h4>Fitness <span> Slam Book </span></h4>
+            </div>
+            <div className='slide_master'>
+              <Slider {...slide}>
+                <div className='slide_images'><img src={Image6} alt="" /></div>
+                <div className='slide_images'><img src={Image7} alt="" /></div>
+                <div className='slide_images'><img src={Image8} alt="" /></div>
+                <div className='slide_images'><img src={Image8} alt="" /></div>
+              </Slider>
+            </div>
+            <div className='slam_para'>
+              <p>"We Embraced the Burn, Loved the Results."- That's What our Clients say? See Yourself!</p>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className='client_Section'>
+        <Container>
+          <div className='client_content'>
+            <h3>Client <span> Testimonials</span></h3>
+          </div>
+          <div className='client_slider'>
+            <Slider {...slide}>
+              <div>
+                <Card className='client_card'>
+                  <Card.Body>
+                    <Card.Img className='client_image' variant="top" src={cardImage13} alt="Card Image 13" />
+                    <Card.Title>Rohit Kamra</Card.Title>
+                    <p>"I used to think yoga was just stretching, but at 8 Step Studios, it's a blend of zen and zest. I'm hooked on the mat and the laughter!</p>
+                  </Card.Body>
+                </Card>
+              </div>
+              <div>
+                <Card className='client_card'>
+                  <Card.Body>
+                    <Card.Img className='client_image' variant="top" src={cardImage13} alt="Card Image 13" />
+                    <Card.Title>Rohit Kamra</Card.Title>
+                    <p>"I used to think yoga was just stretching, but at 8 Step Studios, it's a blend of zen and zest. I'm hooked on the mat and the laughter!</p>
+                  </Card.Body>
+                </Card>
+              </div>
+              <div>
+                <Card className='client_card'>
+                  <Card.Body>
+                    <Card.Img className='client_image' variant="top" src={cardImage13} alt="Card Image 13" />
+                    <Card.Title>Rohit Kamra</Card.Title>
+                    <p>"I used to think yoga was just stretching, but at 8 Step Studios, it's a blend of zen and zest. I'm hooked on the mat and the laughter!</p>
+                  </Card.Body>
+                </Card>
+              </div>
+              <div>
+                <Card className='client_card'>
+                  <Card.Body>
+                    <Card.Img className='client_image' variant="top" src={cardImage13} alt="Card Image 13" />
+                    <Card.Title>Rohit Kamra</Card.Title>
+                    <p>"I used to think yoga was just stretching, but at 8 Step Studios, it's a blend of zen and zest. I'm hooked on the mat and the laughter!</p>
+                  </Card.Body>
+                </Card>
+              </div>
+              <div>
+                <Card className='client_card'>
+                  <Card.Body>
+                    <Card.Img className='client_image' variant="top" src={cardImage13} alt="Card Image 13" />
+                    <Card.Title>Rohit Kamra</Card.Title>
+                    <p>"I used to think yoga was just stretching, but at 8 Step Studios, it's a blend of zen and zest. I'm hooked on the mat and the laughter!</p>
+                  </Card.Body>
+                </Card>
+              </div>
+              <div>
+                <Card className='client_card'>
+                  <Card.Body>
+                    <Card.Img className='client_image' variant="top" src={cardImage13} alt="Card Image 13" />
+                    <Card.Title>Rohit Kamra</Card.Title>
+                    <p>"I used to think yoga was just stretching, but at 8 Step Studios, it's a blend of zen and zest. I'm hooked on the mat and the laughter!</p>
+                  </Card.Body>
+                </Card>
+              </div>
+            </Slider>
+          </div>
+          <div className='client_para'>
+            <p>ready to ditch the couch for crunches?</p>
+            <button className='client_button'>Join us today</button>
+          </div>
+          <div className='fitnessEnc'>
+            <p>Knowledge bytes from the fitness industry!</p>
+            <h4>Fitness <span>Encyclopedia</span></h4>
+          </div>
+          <div className='fitnessEnc_slider'>
+            <Slider {...fit}>
+              <div>
+                <Card className='fit_card' >
+                  <Card.Img variant="top" src={Image9} />
+                  <Card.Body>
+                    <Card.Title>26 Oct, 2023</Card.Title>
+                    <Card.Text>
+                      YOUR FITNESS IS NOT ABOUT
+                      BEING BETTER THAN ...
+                    </Card.Text>
+                    <button className='fit_button' variant="primary">Read More</button>
+                  </Card.Body>
+                </Card>
+              </div>
+              <div>
+                <Card className='fit_card'>
+                  <Card.Img variant="top" src={Image9} />
+                  <Card.Body>
+                    <Card.Title>26 Oct, 2023</Card.Title>
+                    <Card.Text>
+                      YOUR FITNESS IS NOT ABOUT
+                      BEING BETTER THAN ...
+                    </Card.Text>
+                    <button className='fit_button' variant="primary">Read More</button>
+                  </Card.Body>
+                </Card>
+              </div>
+              <div>
+                <Card className='fit_card'>
+                  <Card.Img variant="top" src={Image9} />
+                  <Card.Body>
+                    <Card.Title>26 Oct, 2023</Card.Title>
+                    <Card.Text>
+                      YOUR FITNESS IS NOT ABOUT
+                      BEING BETTER THAN ...
+                    </Card.Text>
+                    <button className='fit_button' variant="primary">Read More</button>
+                  </Card.Body>
+                </Card>
+              </div>
+              <div>
+                <Card className='fit_card'>
+                  <Card.Img variant="top" src={Image9} />
+                  <Card.Body>
+                    <Card.Title>26 Oct, 2023</Card.Title>
+                    <Card.Text>
+                      YOUR FITNESS IS NOT ABOUT
+                      BEING BETTER THAN ...
+                    </Card.Text>
+                    <button className='fit_button' variant="primary">Read More</button>
+                  </Card.Body>
+                </Card>
+              </div>
+            </Slider>
+          </div>
+        </Container>
+      </section>
+
+      <section className='follow_insta'>
+        <Container>
+          <div className='follow_content'>
+            <h4><span>Follow us</span> on Instagram</h4>
+          </div>
+          <div className='insta_images'>
+            <div className='image'><img src={Image10} alt="/" /></div>
+            <div className='image'><img src={Image11} alt="" /></div>
+            <div className='image'><img src={Image12} alt="" /></div>
+            <div className='image'><img src={Image13} alt="" /></div>
+            <div className='image'><img src={Image14} alt="" /></div>
+            <div className='image'><img src={Image15} alt="" /></div>
+            <div className='image'><img src={Image16} alt="" /></div>
+            <div className='image'><img src={Image17} alt="" /></div>
+            <div className='image'><img src={Image18} alt="" /></div>
           </div>
         </Container>
       </section>
