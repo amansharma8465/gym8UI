@@ -54,9 +54,9 @@ function Footer() {
                 <div className='our_platforms'>
                   <p>Our Platforms</p>
                   <ul>
-                    <li> <img src= {Insta} alt="instagram"/> <Link to ="/"> Instagram </Link></li>
-                    <li> <img src= {Facebook} alt="fb" /><Link to ="/"> Facebook </Link></li>
-                    <li> <img src= {Youtube} alt="yt" />  <Link to = "/"> Youtube </Link></li>
+                    <li> <img src= {Insta} alt="instagram"/> <Link to = "https://instagram.com/8stepstudios?igshid=OGQ5ZDc2ODk2ZA==" target='_blank' rel ="noopner noreferrer"> Instagram </Link></li>
+                    <li> <img src= {Facebook} alt="fb" /><Link to ="https://www.facebook.com/8stepstudios" target='_blank' rel='noopner noreferrer'> Facebook </Link></li>
+                    <li> <img src= {Youtube} alt="yt" />  <Link to = "https://youtube.com/@8StepStudios?si=8VvlgzbrI73zsiWq" target='_blank' rel='noopner noreferrer'> Youtube </Link></li>
                     <li><img src= {Pinterest} alt="pin" /><Link to ="/"> Pinterest </Link></li>
                     <li><img src= {LinkedIn} alt="linkedin" /><Link to ="/"> LinkedIn </Link></li>
                   </ul>
