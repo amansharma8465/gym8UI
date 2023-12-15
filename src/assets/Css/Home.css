@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    padding: 10px;
     height: 100vh;
 }
 
@@ -52,7 +51,7 @@
 
 }
 
-.btn {
+.hero_btn {
     font-family: Nutino-sans;
     font-size: 17px;
     font-weight: 800;
@@ -67,7 +66,7 @@
 
 }
 
-.btn :hover {
+.hero_btn :hover {
     background-color: #ffc107;
 }
 
@@ -330,6 +329,7 @@
     background-size: cover;
     background-attachment: scroll;
     height: 100vh;
+    width: 100%;
     margin-bottom: 70px;
 }
 
@@ -337,15 +337,14 @@
     margin: 0;
 }
 
-.bgImage_content {
-    margin-bottom: 80px;
-}
+
 
 .bgImage_content h1 {
     text-align: center;
     font-size: 70px;
     font-weight: 700;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     line-height: 90%;
 }
 
@@ -358,27 +357,20 @@
     font-family: Nutino;
     font-size: 18px;
     font-weight: 400;
+    
 }
 
 .demo {
     position: relative;
     margin-inline: 40px;
+    padding-top: 50px;
 }
 
 .demo img {
     width: 100%;
 }
 
-.demo h4 {
-    color: #FFF400;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 32px;
-    font-weight: 700;
-
-    /* margin: 90px; */
-}
-
+/*** Our Service Section **/
 
 .service_head {
     color: #fff;
@@ -418,9 +410,10 @@
 
 }
 
+
 .custom-card {
     border-radius: 16px;
-    background: #303030;
+    background-color: #303030;
     box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.40);
     margin-left: 20px;
     padding: 20px;
@@ -458,6 +451,7 @@
     flex-direction: column;
 
 }
+
 
 /***One-on-one section**/
 .oneOn_section {
@@ -522,23 +516,7 @@
     margin-bottom: 40px;
 }
 
-/*** One card **/
-/* .one_card img {
-    height: 250px ;
-    width: 198px;
-    
-} */
 
-/* .one_card .card-title {
-    color: #000;
-    text-align: center;
-    text-shadow: 0px 3.522px 38.738px #FFF;
-    font-family: Nunito;
-    font-size: 22px;
-    font-weight: 800;
-    text-transform: capitalize;
-    padding-top: 10px;
-} */
 
 .one_image {
     padding: 0;

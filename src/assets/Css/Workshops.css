@@ -1,0 +1,362 @@
+.workshop_section {
+    color: #fff;
+}
+
+.background {
+    background-image: url('../../assets/Images/workshop_images/img.png');
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background ::after {
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.5sss);
+    background-image: url('../../assets/Images/workshop_images/img.png');
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.bg_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 210px;
+}
+
+.bg_content h2 {
+    margin: 0px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px;
+    text-transform: capitalize;
+}
+
+.background h3 {
+    color: #fff400;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+.background p {
+    width: 1019px;
+    height: 88px;
+    text-align: center;
+    font-family: Nutino;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 71px;
+    margin-top: 3px;
+}
+
+.bg_btn {
+    background-color: #fff400;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin: 35px 2rem;
+    border: none;
+    font-family: Nutino;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*****Our Workshops ******/
+.ourWorkshop_section {
+    padding-block: 80px;
+    color: #fff;
+}
+
+.our_workshops h2 {
+    color: #fff400;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.cards img {
+    width: 500px;
+    height: 300px;
+    border-radius: 4px;
+}
+
+.cards h2 {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.cards p {
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.cards span {
+    color: #fff400;
+}
+
+/******* Our Events ******/
+.ourEvents_section {
+    color: #fff;
+    padding-block: 80px;
+}
+
+.ourEvents_content h2 {
+    color: #fff400;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    padding-bottom: 40px;
+
+}
+
+.grid_image img {
+    height: 230px;
+    width: 350px
+}
+
+.grid_container img {
+    padding: 10px;
+}
+
+.grid_content p {
+    font-size: 25px;
+    font-family: Poppins;
+
+}
+
+.grid_para p {
+    font-family: Nutino Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/***Event Enquiry and Contact us section **/
+.contact_container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.contact_container p {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: Nutino Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    color:rgba(48, 48, 48, 0.50);
+    border-radius: 4px;
+}
+
+.contact_button {
+    padding:  10px 20px;
+    width: 20%;
+    font-family: Nutino Sans;
+    font-size: 16px;
+    background: #FFF400;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact_button:hover{
+    background-color: #ffc107;
+}
+
+/**************************************/
+.event_section {
+    color: #fff;
+    font-family: Poppins;
+    padding-block: 80px;
+}
+
+.enquiry_head h2 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.enquiry_head h2 span {
+    color: #fff400;
+}
+
+.enquiry_image img {
+    position: relative;
+    border-radius: 4px;
+    margin-left: 60px;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.enquiry_image img::before {
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 10px;
+    right: -10px;
+    bottom: -10px;
+    background: #FFF400;
+    z-index: -1;
+}
+
+.enquiry_content p {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.enquiry_content span {
+    color: #FFF400;
+}
+
+
+/**** Event Calendar Section****/
+.faq {
+    color: #fff;
+    padding-block: 80px;
+}
+
+.faq h4 {
+    color: #FFF400;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.eveCalendar_section {
+    color: #fff;
+    text-align: center;
+}
+
+.calendar h2 {
+    color: #FFF400;
+    font-family: Nutino Sans;
+    font-size: 60px;
+}
+
+.calendar p {
+    padding-top: 60px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.eve_btn {
+    background-color: #FFF400;
+    color: #000;
+    /* padding: 8px 5px 5px 5px; */
+    width: 134px;
+    height: 43px;
+    border: none;
+    border-radius: 5px;
+    font-family: Nutino Sans;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+/**** FAQ section******/
+.accor_one {
+    width: 1236px;
+    height: 150px;
+    border-radius: 29px;
+    background: #303030;
+
+    box-shadow: 12px 13px 53px -12px rgba(0, 0, 0, 0.25);
+}
+
+.accor_que p {
+    color: #FFF400;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84.023%;
+    margin-top: 26px;
+}
+
+.accor_heading {
+    display: flex;
+
+}
+
+.accor_img img {
+    /* padding: 14px 35px 0px 0px; */
+    padding-top: 28px;
+    padding-left: 38px;
+    margin-right: 21px;
+}
+
+.accor_ans p {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.63px;
+    width: 873px;
+    padding-left: 80px;
+}
+
+/* two */
+.accor_two {
+    width: 1236px;
+    height: 150px;
+    border-radius: 29px;
+    background: #303030;
+
+    box-shadow: 12px 13px 53px -12px rgba(0, 0, 0, 0.25);
+    margin-top: 25px;
+}

@@ -5,8 +5,8 @@ import Footer from './Components/Footer/Footer.jsx'
 import Home from './Pages/home/Home.jsx';
 import Hero from './Pages/one/Hero.jsx';
 import Service from './Pages/services/Service.jsx'
-import Programs from './Pages/programs/programs.jsx';
-import Workshops from './Pages/workshops/workshops.jsx';
+import Programs from './Pages/programs/Programs.jsx';
+import Workshops from './Pages/workshops/Workshops';
 import About from './Pages/about/About.jsx';
 import Contact from './Pages/contact/Contact.jsx';
 import GymPage from "./Pages/gym/GymPage.jsx";

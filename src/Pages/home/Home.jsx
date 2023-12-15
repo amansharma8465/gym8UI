@@ -92,7 +92,7 @@ function Home() {
               <p style={{ fontFamily: 'Nutino-sans' }}>At 8 Step Studios, we'll make you sweat, laugh, and wonder <br /> why you ever skipped leg day-all in the name of holistic  <br />fitness! We're not just shaping bodies; we're sculpting holistic <br /> health one laugh at a time.</p>
               <h4 className='mg'>Are you ready for the fitness party?</h4> <br />
 
-              <button className='btn' onClick={handleButtonClick}> Take your first step! </button>
+              <button className='hero_btn' onClick={handleButtonClick}> Take your first step! </button>
             </div>
           </div>
         </Container>
@@ -112,7 +112,7 @@ function Home() {
                 <h1 className='custom' > Our <span>Vision</span></h1>
                 <p>To create a world where fitness isn't a chore, but a happy show you never want to miss. We dream of a future where holistic wellness means having a six-pack of laughter, a strong  core of joy, and a heart that beats with good health."</p>
                 <p>Feeling the excitement? Let's make our vision your fitness success story!</p>
-                <button className='btn'> Yes! I'm Ready</button>
+                <button className='hero_btn'> Yes! I'm Ready</button>
               </div>
             </Col>
             <Col>
@@ -198,8 +198,7 @@ function Home() {
           <div className='bg_image'>
             <div className='bgImage_content'>
               <h1>Our <span> Services </span></h1>
-              <p>At 8 Step Studios, we are dedicated to helping you achieve your health and fitness goals. We offer a</p>
-              <p>wide range of fitness services and classes, including yoga, Pilates, Zumba, and much more.</p>
+               <p>At 8 Step Studios, we are dedicated to helping you achieve your health and fitness goals. We offer a </p> <p>wide range of fitness services and classes, including yoga, Pilates, Zumba, and much more.</p>
             </div>
             <Row>
               <Col>
@@ -242,7 +241,7 @@ function Home() {
             <Col>
               <Card className='custom-card'>
                 <Card.Body>
-                  <Card.Img className='custom-image' variant="top" src={cardImage1} alt="Card Image 1" />
+                  <Card.Img className='custom-image' variant='top' src={cardImage1} alt="Card Image 1" />
                   <Card.Title>Zumba</Card.Title>
                   <Card.Text>
                     <p> "Shake, shimmy, and dance your way to fitness with our Zumba classes. It's the only workout where spilling your water bottle is part of the choreography!"</p>

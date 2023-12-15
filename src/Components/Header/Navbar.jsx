@@ -1,19 +1,20 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import '../../assets/Css/Navbar.css';
 import { Link, NavLink } from 'react-router-dom';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import logoImg from "../../assets/Images/logo.png";
 
 const Navbar = () => {
-    const [isServicesDropdownOpen, setServicesDropdownOpen] = useState(false);
-    const [isAboutDropdownOpen, setAboutDropdownOpen] = useState(false);
+    // const [isServicesDropdownOpen, setServicesDropdownOpen] = useState(false);
+    // const [isAboutDropdownOpen, setAboutDropdownOpen] = useState(false);
 
-    const handleServicesDropdown = () => {
-        setServicesDropdownOpen(!isServicesDropdownOpen);
-    };
+    // const handleServicesDropdown = () => {
+    //     setServicesDropdownOpen(!isServicesDropdownOpen);
+    // };
 
-    const handleAboutDropdown = () => {
-        setAboutDropdownOpen(!isAboutDropdownOpen);
-    };
+    // const handleAboutDropdown = () => {
+    //     setAboutDropdownOpen(!isAboutDropdownOpen);
+    // };
 
     return (
         <>
@@ -29,13 +30,13 @@ const Navbar = () => {
                             <Link to="/one">One on One</Link>
                         </li>
                         <li>
-                            <NavLink to="/services" onClick={handleServicesDropdown}>Services</NavLink>
-                            {isServicesDropdownOpen && (
-                                <div className="dropdown-content">
-                                    <Link to="/service1">Service 1</Link>
-                                    <Link to="/service2">Service 2</Link>
-                                </div>
-                            )}
+                            <NavDropdown title="Services" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.2">
+                                    Another action
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                            </NavDropdown>
                         </li>
                         <li>
                             <NavLink to="/programs">Programs</NavLink>
@@ -44,13 +45,13 @@ const Navbar = () => {
                             <NavLink to="/workshops">Workshops</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/about" onClick={handleAboutDropdown}>About Us</NavLink>
-                            {isAboutDropdownOpen && (
-                                <div className="dropdown-content">
-                                    <Link to="/team">Our Team</Link>
-                                    <Link to="/history">History</Link>
-                                </div>
-                            )}
+                        <NavDropdown title="About us" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.2">
+                                    Another action
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                            </NavDropdown>
                         </li>
                         <li>
                             <NavLink to="/contact" className='contact-btn'>Contact Us</NavLink>
