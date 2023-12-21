@@ -193,13 +193,13 @@
     font-family: Nutino Sans;
     font-size: 20px;
     font-weight: 400;
-    text-decoration: underline;
-    color:rgba(48, 48, 48, 0.50);
+    /* text-decoration: underline; */
+    color: rgba(48, 48, 48, 0.50);
     border-radius: 4px;
 }
 
 .contact_button {
-    padding:  10px 20px;
+    padding: 10px 20px;
     width: 20%;
     font-family: Nutino Sans;
     font-size: 16px;
@@ -209,7 +209,8 @@
     border-radius: 4px;
     cursor: pointer;
 }
-.contact_button:hover{
+
+.contact_button:hover {
     background-color: #ffc107;
 }
 
@@ -229,15 +230,19 @@
     color: #fff400;
 }
 
-.enquiry_image img {
+.enquiry_image {
     position: relative;
-    border-radius: 4px;
     margin-left: 60px;
     width: 80%;
     padding-top: 20px;
 }
 
-.enquiry_image img::before {
+.enquiry_image img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.enquiry_image::after {
     position: absolute;
     content: '';
     top: 10px;

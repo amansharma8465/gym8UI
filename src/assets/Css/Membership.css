@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.memebership_section {
+    color: #fff;
+    padding-block: 80px;
+}
+
+.membership_content {
+    text-align: center;
+    font-family: Poppins;
+}
+
+.membership_content h2 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 130%
+}
+
+.membership_content h3 {
+    color: #fff400;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.membership_content p {
+    font-family: Nutino Sans;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+/********membership cards**********/
+
+
+.plan_crd{
+    padding-block: 80px;
+}
+
+.pl_card {
+    width: 415px;
+    height: 591px;
+    background: #303030;
+    color: #fff;
+    border-radius: 4px;
+    font-family: Nutino Sans;
+    transition: background-color 0.3s ease color 0.3s ease;
+
+}
+
+.pl_card p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.pl_card h3 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.pl_card:hover {
+    background-color: #fff400;
+    color: #000;
+}
+
+.pl_para p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 242px;
+}
+
+
+
+.memb {
+    padding-block: 40px;
+    /* transition: background-color 0.3s ease color 0.3s ease ; */
+}
+
+.memb_pl {
+    display: flex;
+    
+}
+
+
+.memb_pl img {
+    width: 25px;
+    height: 25px;
+
+}
+
+.memb_pl p {
+    margin-left: 14px;
+    color: #DEDEDE;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease color 0.3s ease ;
+}
+.memb p:hover {
+    background-color: #FFF400;
+    color: #000;
+}
+
+.memb_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 365px;
+    height: 54px;
+    border-radius: 5px;
+    background: #FFF400;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.memb_btn:hover  {
+    background-color: #000;
+    color: #fff400;
+}
+
+.next_row{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.plansLast_para p{
+    margin: 0;
+    text-align: center;
+    font-family: Nutino Sans;
+    font-size: 30px;
+    font-weight: 600;
+}

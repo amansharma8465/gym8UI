@@ -817,30 +817,21 @@
 /** Follow us on instagram**/
 .follow_insta{
     color: #fff;
+    padding-block: 80px;
 }
 .follow_content h4{
-    margin-top: 80px;
     text-align: center;
     font-family: Poppins;
     font-size: 50px;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 .follow_content h4 span{
     color: #fff400;
 }
 
-.insta_images img{
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
-    display: inline-block;
-    margin-bottom: 80px;
-    /* object-fit: cover;
-    border-radius: 5px; */
+.insta_grid1 img{
+    padding-block: 10px;
+    margin-left: 10px;
+
 }
-.insta_images{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-    

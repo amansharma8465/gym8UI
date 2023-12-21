@@ -1,0 +1,247 @@
+.contact_section {
+    color: #fff;
+    font-family: Poppins;
+    padding-block: 90px;
+}
+
+.cont_details h2 {
+    color: #fff400;
+    font-size: 80px;
+    font-weight: 700;
+
+}
+
+.cont_details p {
+    text-align: justify;
+    font-family: Nutino Sans;
+    font-size: 24px;
+    font-weight: 400;
+    width: 423px;
+
+}
+
+.cont_call {
+    display: flex;
+    padding-top: 39px;
+}
+
+.cont_call p {
+    margin-left: 22px;
+    font-family: Nutino Sans;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cont_call img {
+    width: 20px;
+    height: 20px;
+}
+
+.cont_map {
+    display: flex;
+}
+
+.cont_map p {
+    margin-left: 22px;
+    font-family: Nutino Sans;
+    font-size: 18px;
+    font-weight: 600;
+    width: 346px;
+
+}
+
+.cont_map img {
+    width: 20px;
+    height: 20px;
+}
+
+.conta_form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.conta_form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #000;
+    text-align: justify;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.conta_form textarea {
+    color: #000;
+    text-align: justify;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.submit_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #fff400;
+    color: #000;
+    font-family: Nutino Sans;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1.35px;
+
+}
+
+.lofi {
+    padding-top: 40px;
+}
+
+
+/***********Social Media Section ****************/
+.socialMedia_section {
+    color: #fff;
+    font-family: Poppins;
+}
+
+.social_heading h2 {
+    text-align: center;
+    color: #fff400;
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.social_crd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 409px;
+    height: 364px;
+    background: #303030;
+    
+}
+.social_crd img{
+    margin-bottom: 30px;
+}
+
+.social_crd p{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.social_para p{
+    text-align: center;
+    width: 290px;
+    font-family: Nutino Sans;
+    font-size: 16px;
+}
+
+.another_socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_crd a {
+    color: #fff400;
+    text-decoration:none;
+    font-family: Poppins;
+    font-size: 24px;
+}
+.social_crd a img{
+    padding-top: 28px;
+}
+
+
+/**************Frequently asked questions*****************/
+.frequent_section{
+    background: #303030;
+    color: #fff;
+    font-family: Poppins;
+    padding-block: 80px;
+}
+
+.frequently_content h2{
+    text-align: center;
+    color: #fff400;
+    font-size: 80px;
+    font-weight: 700;
+
+}
+
+  
+
+.accordion{
+    background-color: transparent;
+    border: none;
+  }
+
+.accordion-button{
+    background: #303030;
+    border: none;
+    color: #fff;
+    font-family: Nutino Sans;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .accordion-button button{
+    background-color: #303030;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #303030;
+    box-shadow: none;
+    padding-inline: 0;
+    border: none;
+}
+.accordion-body{
+    color:#fff;
+    background: #303030;
+    
+
+}
+.accordion-button collapsed{
+    padding-inline: 0;
+
+}
+.accordion-item{
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+
+
+/************Follow us section********************/
+.fol_Us_section{
+    color: #fff;
+    padding-block: 80px;
+    font-family: Poppins;
+}
+.fol_Us_content h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.fol_Us_content h2 span{
+    color: #fff400;
+}
+
+.follow_grid{
+    padding-top: 40px;
+}
+
+.grd_1 img{
+    padding-block: 10px;
+    margin-left: 10px;
+    
+}

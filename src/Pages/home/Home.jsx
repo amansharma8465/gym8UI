@@ -579,15 +579,31 @@ function Home() {
             <h4><span>Follow us</span> on Instagram</h4>
           </div>
           <div className='insta_images'>
-            <div className='image'><img src={Image10} alt="/" /></div>
-            <div className='image'><img src={Image11} alt="" /></div>
-            <div className='image'><img src={Image12} alt="" /></div>
-            <div className='image'><img src={Image13} alt="" /></div>
-            <div className='image'><img src={Image14} alt="" /></div>
-            <div className='image'><img src={Image15} alt="" /></div>
-            <div className='image'><img src={Image16} alt="" /></div>
-            <div className='image'><img src={Image17} alt="" /></div>
-            <div className='image'><img src={Image18} alt="" /></div>
+            <Row>
+              <Col>
+              <div className='insta_grid1'>
+                <img src={Image10} alt="" />
+                <img src={Image11} alt="" />
+                <img src={Image12} alt="" />
+                <img src={Image13} alt="" />
+
+              </div>
+              </Col>
+              <Col>
+              <div className='insta_grid2'>
+                <img src={Image14} alt="" />
+
+              </div>
+              </Col>
+              <Col>
+              <div className='insta_grid1'>
+              <img src={Image15} alt="" />
+              <img src={Image16} alt="" />
+              <img src={Image17} alt="" />
+              <img src={Image18} alt="" />
+              </div>
+              </Col>
+            </Row>
           </div>
         </Container>
       </section>

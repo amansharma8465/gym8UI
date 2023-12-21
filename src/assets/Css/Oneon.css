@@ -1,0 +1,255 @@
+/****OneonOne Section (bg image) ****/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.oneOnone_section {
+    color: #fff;
+
+}
+
+.one_On {
+    background: url(../../assets/Images/OneonOne_images/img1.png);
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.oneOn_Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 210px;
+}
+
+.oneOn_Content h2 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 800;
+    color: #B32ECB;
+}
+
+.oneOn_Content h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.oneOn_Content p {
+    margin: 0;
+    font-family: Nutino Sans;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.oneOn_Content p span {
+    color: #B32ECB;
+}
+
+/*********One About Section*******/
+.oneAbout_section {
+    color: #fff;
+    padding-block: 80px;
+}
+
+.oneAbout_content h2 {
+    text-align: center;
+    color: #B32ECB;
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.oneAbout_image img {
+    padding-top: 20px;
+}
+
+.abt_content p {
+    margin-top: 60px;
+    text-align: justify;
+    font-family: Nutino Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 1.08px;
+
+}
+
+.trans p {
+    margin-top: 60px;
+    text-align: center;
+    font-family: Nutino Sans;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.08px;
+
+}
+
+/***Benefits Section**/
+.benefits_section {
+    color: #fff;
+    padding-block: 80px;
+}
+
+.benefits_content h2 {
+    color: #B32ECB;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: Poppins;
+    margin-bottom: 50px;
+}
+
+.benefit_block {
+    background: transparent;
+    width: 370px;
+    height: 238px;
+    border: 1px;
+    outline: 1px solid #B32ECB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+.benefit_block img{
+    width: 60px;
+    height: 60px;
+    margin-top: 50px; 
+}
+.benefit_block p{
+    margin-top: 20px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/**** Results Section *****/
+.result_section{
+    color: #fff;
+    font-family: Poppins;
+    padding-block: 60px;
+}
+.result_container h3{
+    text-align: center;
+    color: #B32ECB;
+    font-size: 60px;
+    font-weight: 700;  
+    margin-bottom: 40px; 
+}
+
+.steps_chart{
+    background: transparent;
+    width: 827px;
+    height: 75px;
+    border-radius: 4px;
+    border: 0.75px solid #B32ECB;
+    margin-left: 225px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.arrow img{
+    margin-left:  620px;
+}
+
+.result_head h3{
+
+    padding-top: 60px;
+    text-align: center;
+    font-family: Nutino Sans;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.do_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result_btn{
+    font-family: Nutino-sans;
+    font-size: 18px;
+    font-weight: 800;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background:#B32ECB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/***Result FAQ section**/
+.result_faq {
+    color: #fff;
+    padding-block: 80px;
+    font-family: Poppins;
+}
+
+.faqs h4 {
+    color:#B32ECB;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.faqs_one{
+    width: 1236px;
+    height: 150px;
+    border-radius: 29px;
+    background: #303030;
+    box-shadow: 12px 13px 53px -12px rgba(0, 0, 0, 0.25);
+}
+.faqs_question p{
+    color: #B32ECB;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84.023%;
+    margin-top: 26px;
+}
+.faqs_heading{
+    display: flex;
+}
+
+.faqs_image img{
+    padding-top: 28px;
+    padding-left: 38px;
+    margin-right: 21px;
+}
+.faqs_answer p{
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.63px;
+    width: 873px;
+    padding-left: 80px;
+}
+
+
+.faqs_two{
+    width: 1236px;
+    height: 150px;
+    border-radius: 29px;
+    background: #303030;
+    box-shadow: 12px 13px 53px -12px rgba(0, 0, 0, 0.25);
+    margin-top: 25px;
+}
