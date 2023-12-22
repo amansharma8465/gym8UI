@@ -32,9 +32,7 @@ const Navbar = () => {
                         <li>
                             <NavDropdown title="Services" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">
-                                    Another action
-                                </NavDropdown.Item>
+                                <NavDropdown.Item ><Link to= "/courses">Our Courses</Link></NavDropdown.Item>
                                 <NavDropdown.Item ><Link to= "/membership"> Membership Plans</Link></NavDropdown.Item>
                             </NavDropdown>
                         </li>
@@ -46,11 +44,15 @@ const Navbar = () => {
                         </li>
                         <li>
                         <NavDropdown title="About us" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                                <NavDropdown.Item >
+                                    <Link to ='/about'>About us </Link>
+                                    </NavDropdown.Item>
                                 <NavDropdown.Item >
                                     <Link to='/branch'>Our Branch</Link>
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                                <NavDropdown.Item>
+                                    <Link to = '/blog'> Blogs</Link>
+                                </NavDropdown.Item>
                             </NavDropdown>
                         </li>
                         <li>

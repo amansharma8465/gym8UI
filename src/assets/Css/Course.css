@@ -1,0 +1,159 @@
+.course_section {
+    color: #fff;
+    font-family: Poppins;
+
+}
+.course_bg {
+    background: url(../../assets/Images/CoursePage_images/bgimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 100%;
+}
+
+.course_content {
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+.course_content h2,
+h3 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.course_content h2 span {
+    color: #fff400;
+}
+
+.course_content p {
+    font-family: Nutino Sans;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.course_star {
+    display: flex;
+}
+
+.course_star img {
+    width: 174.742px;
+    height: 34.949px;
+}
+
+.course_para p {
+    padding-block: 60px;
+    font-family: Nutino Sans;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.course_para p span {
+    color: #fff400;
+}
+
+.course_lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 398px;
+    height: 43px;
+    border-radius: 30.109px;
+    box-shadow: 10.036px 6.691px 24.756px 0px rgba(0, 0, 0, 0.25);
+    gap: 16px;
+
+}
+
+.course_lang p {
+    font-family: Nutino Sans;
+    font-size: 18.735px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+/***********About the Course section***************/
+.courseAbout_section {
+    color: #fff;
+    padding-block: 80px;
+    font-family: Poppins;
+}
+
+.courseAbout_content h2 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.courseAbout_content h2 span {
+    color: #fff400;
+}
+
+.courseAbout_content p {
+    width: 548px;
+}
+
+.checklist_section {
+    display: flex;
+    flex-direction: column;
+    padding-block: 40px;
+}
+
+.check_content {
+    display: flex;
+    font-family: Nutio Sans;
+}
+
+.check_content img {
+    width: 32.578px;
+    height: 32.578px;
+    flex-shrink: 0;
+    margin:30px ;
+}
+
+.check_content p {
+    color: #DEDEDE;
+    font-family: Nunito Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 1.125px;
+    text-transform: capitalize;
+    margin: 30px;
+}
+
+/**********Course Schedule************/
+.courseSchedule_section{
+    color: #fff;
+    background: #303033;
+    padding-block: 80px;
+    font-family: Poppins;
+}
+.courseSchedule_content h2{
+    font-size: 70px;
+    font-weight: 800;
+
+}
+.courseSchedule_content h2 span{
+    color: #fff400;
+}
+
+.courseSchedule_header h3{
+    font-size: 30px;
+}
+
+/**********Customer Review************/
+.customerReview_section{
+    color: #fff;
+    font-family: Poppins;
+    padding-block: 80px;
+}
+.customerReview_header h2,h3{
+    font-size: 70px;
+    font-weight: 800
+}
+.customerReview_header h3 span{
+    color: #fff400;
+}

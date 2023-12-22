@@ -38,7 +38,7 @@ function Workshops() {
             <h2>Our Workshops</h2>
             <Row>
               <Col>
-                <div className='cards'>
+                <div className='workshop_crds'>
                   <div><img src={Image} alt="" /></div>
                   <h3>Yoga Breathing</h3>
                   <p>1st Jan 2022</p>
@@ -50,7 +50,7 @@ function Workshops() {
 
               </Col>
               <Col>
-                <div className='cards'>
+                <div className='workshop_crds'>
                   <div><img src={Image1} alt="" /></div>
                   <h3>Yoga Breathing</h3>
                   <p>1st Jan 2022</p>
@@ -62,7 +62,7 @@ function Workshops() {
             </Row>
             <Row>
               <Col>
-                <div className='cards'>
+                <div className='workshop_crds'>
                   <div><img src={Image} alt="" /></div>
                   <h3>Yoga Breathing</h3>
                   <p>1st Jan 2022</p>
@@ -72,7 +72,7 @@ function Workshops() {
                 </div>
               </Col>
               <Col>
-                <div className='cards'>
+                <div className='workshop_crds'>
                   <div><img src={Image1} alt="" /></div>
                   <h3>Yoga Breathing</h3>
                   <p>1st Jan 2022</p>

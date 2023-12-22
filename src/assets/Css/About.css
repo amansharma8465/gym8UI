@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.section_one_aboutus-bg {
+    background-color: black;
+    ;
+    height: 100vh;
+    width: 100%;
+}
+
+.abtus_main_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 284px;
+}
+
+.abtus_main_content h2 {
+    color: #FFF;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px;
+    text-transform: capitalize;
+    margin: 0;
+
+
+
+}
+
+.abtus_main_content h3 {
+    color: #FFF400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+
+
+}
+
+.abtus_main_content p {
+    color: #FFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.72px;
+    text-align: center;
+    width: 1019px;
+    height: 88px;
+    padding-bottom: 71px;
+    margin-top: 3px;
+
+
+}
+
+/* section2 */
+
+
+.section_two_aboutus-bg {
+    background-color: black;
+    background-size: cover;
+}
+
+.section_two_pcont p {
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+    letter-spacing: 0.81px;
+    width: 783px;
+
+
+
+}
+
+.section_two_pcont h1 {
+    color: #FFF400;
+    padding-top: 90px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.023%;
+    /* 75.218px */
+
+
+
+
+}
+
+.section_two_pcont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.swet_year_span {
+
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 94.023%;
+    /* 28.207px */
+}
+
+.swet_content1 h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 94.023%;
+    padding-bottom: 20px;
+}
+
+.swet_content2 p {
+    color: #FFF;
+    text-align: justify;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0.81px;
+    width: 881px;
+    padding-left: 25px;
+}
+
+.swet_content1 {
+    display: flex;
+    align-items: center;
+}
+
+.swet_content1 img {
+    padding: 0px 17px 25px 0px;
+}
+
+.swet_story_main_content_one {
+    padding: 164px 0px 100px 191px;
+}
+
+.swet_story_main_content_two {
+    padding: 37px 0px 100px 191px;
+
+}
+
+.swet_story_main_content_three {
+    padding: 37px 0px 100px 191px;
+
+}
+
+.swet_story_main_content_four {
+    padding: 37px 0px 100px 191px;
+}
+
+.swet_content_two {
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.81px;
+    width: 726px;
+    margin-inline: auto;
+    /* margin-left: 235px; */
+    /* margin-bottom: 30px; */
+    padding-bottom: 30px;
+}
+
+/* ..........................section3 start................ */
+
+.section_three_aboutus-bg {
+    background-color: black;
+    background-size: cover;
+}
+
+.sec_three_head h1 {
+    color: #FFF400;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.023%;
+    padding-bottom: 50px;
+}
+
+.car_cont {
+    width: 381.694px;
+    height: 287px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #303030;
+}
+
+.card_body_about {
+    background-color: #303030;
+
+
+
+
+}
+
+.fig_one_abtus {
+    width: 330.694px;
+    height: 255px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #303030;
+}
+
+.figure_content_abtus_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+}
+
+.figure_content_abtus_main_two {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+
+
+
+}
+
+.fig_one_abtus h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 111.5%;
+    /* 28.99px */
+    letter-spacing: 1.17px;
+    text-transform: capitalize;
+    padding: 20px;
+
+}
+
+.fig_one_abtus p {
+
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 25.2px */
+    letter-spacing: 0.81px;
+    padding-left: 20px;
+}
+
+/* ....................section four............ */
+.section_four_aboutus-bg {
+    background-color: black;
+    background-size: cover;
+    padding-top: 140px;
+}
+
+
+
+
+.sec_four_heading h2 {
+    color: #FFF400;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75.218px;
+    /* 75.218px */
+
+
+}
+
+.sec_four_heading p {
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.81px;
+    width: 726px;
+    margin-inline: auto;
+    padding-top: 15px;
+}
+
+/* ................section 5.................... */
+.section_five_aboutus-bg {
+    background-color: black;
+    background-size: cover;
+    padding-top: 140px;
+}
+
+
+
+
+
+.sec_five_heading h2 {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 83.8%;
+    /* 67.04px */
+    letter-spacing: -3.2px;
+    text-transform: uppercase;
+
+
+
+
+}
+
+.sec_5_head {
+    color: #FFF400;
+    font-family: Poppins;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 83.8%;
+    letter-spacing: -4px;
+    text-transform: uppercase;
+
+
+
+
+}
+
+/* ............section6............. */
+.sec_six_heading h2 {
+    color: #FFF400;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84.023%;
+    /* 67.218px */
+    text-transform: capitalize;
+
+
+
+
+}
+.section_six_aboutus-bg{
+    background-color: black;
+    background-size: cover;
+    padding: 10px 0px 30px 0px;
+
+
+
+}
+.rightside_figone h2{color: #FFF;
+
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 58.5px */
+    letter-spacing: 4.5px;
+
+}
+.rightside_figone p{
+    color: #FFF;
+
+    text-align: justify;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: 0.81px;
+
+
+
+}
+.leftside_figtwo h2{
+    color: #FFF;
+
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 58.5px */
+    letter-spacing: 4.5px;
+
+
+
+
+}
+.leftside_figtwo p{
+    color: #FFF;
+
+    text-align: justify;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: 0.81px;
+
+
+
+
+}
+.address_abtus1 p{
+    color: #FFF;
+text-align: justify;
+font-family: Nunito Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 84.023%; /* 15.124px */
+
+
+
+}
+.address_abtus1,.address_abtus2{
+display: flex;
+align-items: center;
+
+}
+.address_abtus1 img,.address_abtus2 img{
+     
+        padding-bottom: 15px;
+        padding-right: 10px;
+    
+
+}
+.address_abt_main,.address_abt_mainn {
+    display: flex;
+}

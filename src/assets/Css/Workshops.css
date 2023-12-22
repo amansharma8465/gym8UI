@@ -100,27 +100,27 @@
     padding-bottom: 40px;
 }
 
-.cards img {
+.workshop_crds img {
     width: 500px;
     height: 300px;
     border-radius: 4px;
 }
 
-.cards h2 {
+.workshop_crds h3 {
     font-family: Poppins;
     font-size: 45px;
     font-weight: 700;
 
 }
 
-.cards p {
+.workshop_crds p {
     font-family: Nunito Sans;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
 }
 
-.cards span {
+.workshop_crds span {
     color: #fff400;
 }
 
