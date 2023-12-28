@@ -17,10 +17,20 @@ import SocialGrid7 from '../../assets/Images/blog_images/blog_main/grid7.png'
 import SocialGrid8 from '../../assets/Images/blog_images/blog_main/grid8.png'
 import SocialGrid9 from '../../assets/Images/blog_images/blog_main/grid9.png'
 import Container from 'react-bootstrap/Container'
+import { useNavigate } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card'
 
 function BlogSection() {
+    const navigate = useNavigate();
+    
+    const buttonClick = () => {
+        navigate('/blog');
+    }
+    const cardClick = () => {
+        navigate ('/blog')
+    }
+
     return (
         <>
             <section className='blogSec_section'>
@@ -62,38 +72,38 @@ function BlogSection() {
                         <Row>
                             <Col>
 
-                                <Card className='blogPosts'>
+                                <Card className='blogPosts' onClick={cardClick}>
                                     <Card.Body>
                                         <Card.Img src={CrdImage1} />
                                         <div className='blogCrd_content'>
                                             <p>5 Tips to build  daily
                                                 movement routine</p>
-                                            <button className='blogCrd_btn'> Read More!</button>
+                                            <button className='blogCrd_btn' onClick={buttonClick}> Read More!</button>
                                         </div>
                                     </Card.Body>
                                 </Card>
 
                             </Col>
                             <Col>
-                                <Card className='blogPosts'>
+                                <Card className='blogPosts' onClick={cardClick}>
                                     <Card.Body>
                                         <Card.Img src={CrdImage2} />
                                         <div className='blogCrd_content'>
                                             <p>The beginner's guide
                                                 to weight lifting</p>
-                                            <button className='blogCrd_btn'> Read More!</button>
+                                            <button className='blogCrd_btn' onClick={buttonClick}> Read More!</button>
                                         </div>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col>
-                                <Card className='blogPosts'>
+                                <Card className='blogPosts' onClick={cardClick}>
                                     <Card.Body>
                                         <Card.Img src={CrdImage3} />
                                         <div className='blogCrd_content'>
                                             <p>Why breathwork
                                                 matters in your workout</p>
-                                            <button className='blogCrd_btn'> Read More!</button>
+                                            <button className='blogCrd_btn' onClick={buttonClick}> Read More!</button>
                                         </div>
                                     </Card.Body>
                                 </Card>
@@ -101,37 +111,37 @@ function BlogSection() {
                         </Row>
                         <Row>
                             <Col>
-                                <Card className='blogPosts'>
+                                <Card className='blogPosts' onClick={cardClick}>
                                     <Card.Body>
                                         <Card.Img src={CrdImage4} />
                                         <div className='blogCrd_content'>
                                             <p>6 basic weight lifting
                                                 training for starters</p>
-                                            <button className='blogCrd_btn'> Read More!</button>
+                                            <button className='blogCrd_btn' onClick={buttonClick}> Read More!</button>
                                         </div>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col>
-                                <Card className='blogPosts'>
+                                <Card className='blogPosts' onClick={cardClick}>
                                     <Card.Body>
                                         <Card.Img src={CrdImage5} />
                                         <div className='blogCrd_content'>
                                             <p>The beginner’s guide
                                                 to weight lifting</p>
-                                            <button className='blogCrd_btn'> Read More!</button>
+                                            <button className='blogCrd_btn' onClick={buttonClick}> Read More!</button>
                                         </div>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col>
-                                <Card className='blogPosts'>
+                                <Card className='blogPosts' onClick={cardClick}>
                                     <Card.Body>
                                         <Card.Img src={CrdImage6} />
                                         <div className='blogCrd_content'>
                                             <p>Using ropes to increase
                                                 your core strenght </p>
-                                            <button className='blogCrd_btn'> Read More!</button>
+                                            <button className='blogCrd_btn' onClick={buttonClick}> Read More!</button>
                                         </div>
                                     </Card.Body>
                                 </Card>

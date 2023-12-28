@@ -51,7 +51,7 @@ const Navbar = () => {
                                     <Link to='/branch'>Our Branch</Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                    <Link to = '/blog'> Blogs</Link>
+                                    <Link to = '/blogsection'> Our Blogs</Link>
                                 </NavDropdown.Item>
                             </NavDropdown>
                         </li>
