@@ -19,6 +19,7 @@ import Sauna from "./Pages/sauna/Sauna.jsx"
 import Membership from './Pages/membership/Membership.jsx';
 import Branch from './Pages/branch/Branch.jsx';
 import Course from './Pages/courses/Course.jsx';
+import BlogSection from './Pages/blog/BlogSection.jsx';
 import Blog from './Pages/blog/Blog.jsx';
 
 
@@ -37,6 +38,7 @@ const App = () => {
           <Route path ="membership" element={<Membership/>}/>
           <Route path="branch" element={<Branch/>}/>
           <Route path= "courses" element= {<Course/>}/>
+          <Route path = "blog" element ={ <BlogSection/>}/>
           <Route path= "blog" element= {<Blog/>}/>
           <Route path="programs" element={<Programs />} />
           <Route path="workshops" element={<Workshops />} /> 

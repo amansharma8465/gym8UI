@@ -1,0 +1,247 @@
+.blogSec_section {
+    color: #fff;
+}
+
+.blogSec_backgroud {
+    background: url(../../assets/Images/blog_images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+.blogSec_content {
+    text-align: center;
+
+}
+
+.blogSec_content h2 {
+    padding-top: 300px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 84.023%;
+    /* 58.816px */
+    text-transform: capitalize;
+
+}
+
+.blogSec_content h2 span {
+    color: #fff400;
+}
+
+.blogSec_content p {
+    padding-inline: 300px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 1.08px;
+}
+
+/******** Blog Featured **********/
+.blogGuide_section {
+    color: #fff;
+    padding-block: 80px;
+}
+
+.blog_col1_content {
+    position: relative;
+}
+
+.blog_col1_content::after {
+    position: absolute;
+    content: '';
+    top: 8px;
+    left: -10px;
+    right: 60px;
+    bottom: -10px;
+    background: #FFF400;
+    z-index: -1;
+}
+
+.blog_col2_content p span {
+    color: #fff400;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%
+}
+
+.blog_col2_content p {
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.col_2_para p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    letter-spacing: 0.72px;
+    padding-right: 215px;
+}
+
+.col_2_btn {
+    display: flex;
+    width: 134px;
+    height: 43px;
+    padding: 5.353px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.353px;
+    border-radius: 5px;
+    background: #FFF400;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: 'Nutino', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 84.023%;
+}
+
+/*************** Blog Post Section ******************/
+.blogPost_section {
+    color: #fff;
+    padding-block: 80px;
+    background: #303030;
+}
+
+.blogPost_content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.blogPost_content h2 span {
+    color: #FFF400;
+}
+
+/****cards******/
+.blogPosts {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.blogCrd_content p {
+    font-family: 'Poppins' sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.blogCrd_btn {
+    display: flex;
+    width: 134px;
+    height: 43px;
+    padding: 5.353px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.353px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF400;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Nutino', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/**********Blog page social media ***********/
+.blogSec_socials {
+    color: #fff;
+    padding-block: 80px;
+}
+
+.social_header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-inline: 223px;
+}
+
+.social_header p {
+    font-family: 'Nutino', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.socialHeader_button {
+    width: 134px;
+    height: 43px;
+    padding: 5.353px;
+    gap: 5.353px;
+    border-radius: 5px;
+    background: #FFF400;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: 'Nutino', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+.blogSocial_section{
+    color: #fff;
+}
+
+.blogSocial h2{
+    position: absolute;
+    top: 85px;
+    left: 20%;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+}
+.blogSocial{
+    position: relative;
+}
+
+.blogSocial h1 {
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 155px;
+    font-weight: 700;
+    -webkit-text-stroke: 2px white;
+    color: black;
+    text-shadow: 1px 1px 0 #000 , 1px 1px 0 #000 , 1px 1px 0 #000 ,1px 1px 0 #000 , 1px 1px 0 #000 ;
+    opacity: 0.3;
+
+}
+.blogSocial h2 span{
+    color: #FFF400;
+}
+
+.blogSocial_grid{
+    padding-block: 60px;
+}
+.blogSocialGrid 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 18px;
+    justify-content: center;
+}
+.blogSocialGrid img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.blogSocialGrid2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
